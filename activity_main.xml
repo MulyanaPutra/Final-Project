@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mull.katalogmotorsupersport.MainActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:text="Ducati"
+        android:onClick="goToWhere"
+        android:background="#A12"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:text="Honda"
+        android:background="#F34"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:text="Kawasaki"
+        android:background="#D34"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:text="Suzuki"
+        android:background="#F34"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:text="Yamaha"
+        android:background="#D34"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp"/>
+
+</LinearLayout>
